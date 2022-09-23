@@ -304,7 +304,7 @@ color: #000000;
 position: absolute;
 width: 1440px;
 height: 675px;
-left: 23px;
+left: calc(50% - 1440px/2);
 top: 987px;
 
 background: #FFFFFF;
@@ -527,10 +527,10 @@ background: url(image.png);
 position: absolute;
 width: 1440px;
 height: 420px;
-left: 23px;
+left: calc(50% - 1440px/2);
 top: 1746px;
-
 background: #F58634;
+
 
 }
 
@@ -581,7 +581,7 @@ background: url(image.png);
     position: absolute;
     width: 1300px;
     height: 3px;
-    left:  calc(50% - 1350px/2);
+    left: calc(50% - 1350px/2);
     top: 1120px;
     border-radius: 20px;
     background: #1E1E1E;
@@ -593,7 +593,8 @@ background: url(image.png);
     left: calc(50% - 1440px/2);
     top: 2220px;
     border-radius: 20px;
-    background: #1E1E1E;  
+    background: #1E1E1E;
+  
 }
 .lin-rod{
     position: absolute;
