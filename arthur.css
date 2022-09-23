@@ -581,7 +581,7 @@ background: url(image.png);
     position: absolute;
     width: 1300px;
     height: 3px;
-    left: 110px;
+    left:  calc(50% - 1350px/2);
     top: 1120px;
     border-radius: 20px;
     background: #1E1E1E;
